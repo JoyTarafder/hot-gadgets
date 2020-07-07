@@ -46,7 +46,7 @@
     box-shadow: -10px 5px 5px lightgray;
     border-radius: 10px;
     border: 1px solid white;
-    width: 150px;
+    width: 170px;
     padding: 20px;
 }
 .img1{
@@ -54,19 +54,18 @@
 }
 footer{
     text-align: center;
-}
-.link-add{
-    text-decoration: none;
-    background-image: linear-gradient(45deg,#4776e6,
-    #8e54e9);
-    padding: 20px 30px;
-    border-radius: 8px;
-    color: white;
-    font-weight: bold;
-    box-shadow: 20px 0px 40px gray;
-    border-radius: 10px;
-}
-.link-add:hover{
-    color: black;
     font-size: 20px;
 }
+.carousel-indicators li{
+    width: 20px;
+    height: 8px;
+    border: none;
+    border-radius: 20px;
+    background-color: #CECECE;
+    }
+.carousel-indicators li.active{
+    width: 35px;
+    height: 10px;
+    border-radius: 8px;
+    background-image: linear-gradient(145deg,#f1c40f,#e67e22);
+    }
